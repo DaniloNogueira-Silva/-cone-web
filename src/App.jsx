@@ -425,10 +425,10 @@ const App = () => {
         <div className="container mx-auto text-center">
           <div className="text-2xl font-bold mb-6">ÍCONE</div>
           <div className="flex justify-center space-x-6 mb-8">
-            {["Instagram", "Behance", "LinkedIn"].map((social) => (
+            {["Instagram"].map((social) => (
               <a
                 key={social}
-                href="#"
+                href="https://www.instagram.com/icone.pp/"
                 className="hover:text-gray-300 transition-colors"
               >
                 {social}
