@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-light a {
+    color: white;
+  }
+  
+  .nav-light a:hover {
+    color: #60A5FA; /* blue-400 */
+  }
+  
+  .nav-dark a {
+    color: #18181B; /* zinc-900 */
+  }
+  
+  .nav-dark a:hover {
+  color: #3B82F6; /* blue-500 */
+}
